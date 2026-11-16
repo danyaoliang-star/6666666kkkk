@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+/* Begin PBXBuildFile section */
+    ECAF934E7E62CA21AAB916D3 = { isa = PBXBuildFile; fileRef = 0B568B0C55ED33C696EED94C; };
+    654FB9850976B0ED287DF82F = { isa = PBXBuildFile; fileRef = FA41E4BA43FEAE9223F1BCCB; };
+    4AD9DFA4DDB857B8216395D2 = { isa = PBXBuildFile; fileRef = 962475408D6D4F806E02CAFC; };
+    DFB46A75ACCB9B56550680E6 = { isa = PBXBuildFile; fileRef = F6C9E25D5C077CF64A9F030F; };
+    092001D87DB95D2A26495076 = { isa = PBXBuildFile; fileRef = 853DBE15B1A0FD6C69DB9989; };
+    A66FDA1A4E25A4292B410365 = { isa = PBXBuildFile; fileRef = D74F5FE4BA17087BFE60785F; };
+    E53ACC5AB67F95F5F6E07E92 = { isa = PBXBuildFile; fileRef = 7F876C56B4EA8F188C42711B; };
+    2B298061605CF474F6AC26D3 = { isa = PBXBuildFile; fileRef = 447387D414011B4F29425319; };
+    896D2211D6B6C6779B015334 = { isa = PBXBuildFile; fileRef = 9938F8DA6F2F8A8664735F26; };
+    C7C5F3F0EDAACF9DDC0FCEED = { isa = PBXBuildFile; fileRef = 471CA44D5D7E421D81109BA8; };
+    C50F1F958D075238619F2563 = { isa = PBXBuildFile; fileRef = E0A507886694366316C4E602; };
+    EA3D338355B2771D2C5C6767 = { isa = PBXBuildFile; fileRef = DCB64160862862E5076E1DEE; };
+    427674D5B798C342D8D0E836 = { isa = PBXBuildFile; fileRef = 9F857A738A610AC5CAB97789; };
+    6313EE890090D50FC7EA4D91 = { isa = PBXBuildFile; fileRef = 34AB86E823E128CFE4F06504; };
+    64538202B885E446DB7F3E5C = { isa = PBXBuildFile; fileRef = 9A8159C4F3E80BCA61DD843F; };
+    E790CBD28BC428E85CDB4E18 = { isa = PBXBuildFile; fileRef = 64F6722230930690B0B3A2C4; };
+    8E9EA8C64604BB2186D0205B = { isa = PBXBuildFile; fileRef = 20F8AE2D90C25ABAE71921AA; };
+    63E34F6AF2F7433AAA045F0B = { isa = PBXBuildFile; fileRef = FBD5BE8076A2B13C4F9C6AC8; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+    F5A429194A00232ACC3298B6 = { isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = 0E8A3AD980EC179856012B7E; remoteInfo = FamilyHealth; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+    0B568B0C55ED33C696EED94C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountViews.swift"; sourceTree = "<group>"; };
+    FA41E4BA43FEAE9223F1BCCB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient.swift"; sourceTree = "<group>"; };
+    962475408D6D4F806E02CAFC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppStore.swift"; sourceTree = "<group>"; };
+    F6C9E25D5C077CF64A9F030F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatView.swift"; sourceTree = "<group>"; };
+    853DBE15B1A0FD6C69DB9989 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Design.swift"; sourceTree = "<group>"; };
+    D74F5FE4BA17087BFE60785F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FamilyComparisonView.swift"; sourceTree = "<group>"; };
+    7F876C56B4EA8F188C42711B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FamilyHealthApp.swift"; sourceTree = "<group>"; };
+    447387D414011B4F29425319 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthKitService.swift"; sourceTree = "<group>"; };
+    9938F8DA6F2F8A8664735F26 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthViews.swift"; sourceTree = "<group>"; };
+    471CA44D5D7E421D81109BA8 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LifestyleView.swift"; sourceTree = "<group>"; };
+    E0A507886694366316C4E602 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoriesView.swift"; sourceTree = "<group>"; };
+    DCB64160862862E5076E1DEE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models.swift"; sourceTree = "<group>"; };
+    9F857A738A610AC5CAB97789 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlansViews.swift"; sourceTree = "<group>"; };
+    34AB86E823E128CFE4F06504 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsViews.swift"; sourceTree = "<group>"; };
+    9A8159C4F3E80BCA61DD843F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReportsViews.swift"; sourceTree = "<group>"; };
+    64F6722230930690B0B3A2C4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeeklyDraftView.swift"; sourceTree = "<group>"; };
+    20F8AE2D90C25ABAE71921AA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NativeClientTests.swift"; sourceTree = "<group>"; };
+    FBD5BE8076A2B13C4F9C6AC8 = { isa = PBXFileReference; lastKnownFileType = text.json; path = "native-contract.json"; sourceTree = "<group>"; };
+    7B594B6DB375E1BF3F23CDD6 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+    3B98CD83066D4D35AB6DA1BA = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
+    6E2929C4F431D98952797774 = { isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FamilyHealth.entitlements"; sourceTree = "<group>"; };
+    38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    6C7CCDEB3609F1FAA874E941 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    E05DB79C430AA1B0BA487AFC = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+    96DC7B6B5526E30EFB51C316 = { isa = PBXGroup; children = (0B568B0C55ED33C696EED94C, FA41E4BA43FEAE9223F1BCCB, 962475408D6D4F806E02CAFC, F6C9E25D5C077CF64A9F030F, 853DBE15B1A0FD6C69DB9989, D74F5FE4BA17087BFE60785F, 7F876C56B4EA8F188C42711B, 447387D414011B4F29425319, 9938F8DA6F2F8A8664735F26, 471CA44D5D7E421D81109BA8, E0A507886694366316C4E602, DCB64160862862E5076E1DEE, 9F857A738A610AC5CAB97789, 34AB86E823E128CFE4F06504, 9A8159C4F3E80BCA61DD843F, 64F6722230930690B0B3A2C4, 7B594B6DB375E1BF3F23CDD6, 3B98CD83066D4D35AB6DA1BA, 6E2929C4F431D98952797774, ); path = FamilyHealth; sourceTree = "<group>"; };
+    E717C295FF9827DFF805D88B = { isa = PBXGroup; children = (20F8AE2D90C25ABAE71921AA, FBD5BE8076A2B13C4F9C6AC8, ); path = FamilyHealthTests; sourceTree = "<group>"; };
+    FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9, 6C7CCDEB3609F1FAA874E941, ); name = Products; sourceTree = "<group>"; };
+    42944EBC669F21BC22392EB5 = { isa = PBXGroup; children = (96DC7B6B5526E30EFB51C316, E717C295FF9827DFF805D88B, FBDC4F23F93125BBEEAE800C, ); sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = 4867F1BF372A84237FA0A5A7; buildPhases = (A1C3CEACCD4F322048E69D2D, 7561BFB015D8F536760CB671, ); buildRules = (); dependencies = (); name = FamilyHealth; productName = FamilyHealth; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+    C062A5A4A7F4F37DD90F54CB = { isa = PBXNativeTarget; buildConfigurationList = 19170B56EA5642A46C383F29; buildPhases = (78A10A681B05EBFA9A1352B2, E05DB79C430AA1B0BA487AFC, D5C76E148680C094C001AC35, ); buildRules = (); dependencies = (BAE932EF166B50AB877FDC6F, ); name = FamilyHealthTests; productName = FamilyHealthTests; productReference = 6C7CCDEB3609F1FAA874E941; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = { 0E8A3AD980EC179856012B7E = { CreatedOnToolsVersion = 16.0; SystemCapabilities = { com.apple.HealthKit = { enabled = 1; }; }; }; C062A5A4A7F4F37DD90F54CB = { CreatedOnToolsVersion = 16.0; TestTargetID = 0E8A3AD980EC179856012B7E; }; }; }; buildConfigurationList = 640DC9EFD529235A8D9E2727; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, "zh-Hans", ); mainGroup = 42944EBC669F21BC22392EB5; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E, C062A5A4A7F4F37DD90F54CB, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+    D5C76E148680C094C001AC35 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (63E34F6AF2F7433AAA045F0B, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+    A1C3CEACCD4F322048E69D2D = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (ECAF934E7E62CA21AAB916D3, 654FB9850976B0ED287DF82F, 4AD9DFA4DDB857B8216395D2, DFB46A75ACCB9B56550680E6, 092001D87DB95D2A26495076, A66FDA1A4E25A4292B410365, E53ACC5AB67F95F5F6E07E92, 2B298061605CF474F6AC26D3, 896D2211D6B6C6779B015334, C7C5F3F0EDAACF9DDC0FCEED, C50F1F958D075238619F2563, EA3D338355B2771D2C5C6767, 427674D5B798C342D8D0E836, 6313EE890090D50FC7EA4D91, 64538202B885E446DB7F3E5C, E790CBD28BC428E85CDB4E18, ); runOnlyForDeploymentPostprocessing = 0; };
+    78A10A681B05EBFA9A1352B2 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (8E9EA8C64604BB2186D0205B, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+    BAE932EF166B50AB877FDC6F = { isa = PBXTargetDependency; target = 0E8A3AD980EC179856012B7E; targetProxy = F5A429194A00232ACC3298B6; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+    ED8772ADEC3A6C25161BC957 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; SWIFT_STRICT_CONCURRENCY = minimal; ENABLE_TESTABILITY = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; GCC_OPTIMIZATION_LEVEL = 0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; }; name = Debug; };
+    F8975E934DA2067E0E497395 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; CODE_SIGN_ENTITLEMENTS = FamilyHealth/FamilyHealth.entitlements; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = FamilyHealth/Info-Debug.plist; PRODUCT_BUNDLE_IDENTIFIER = com.jiahe.familyhealth; HEALTH_API_BASE_URL = ""; }; name = Debug; };
+    DF53765BF9D03B65CB04A4C8 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.jiahe.familyhealth.tests; BUNDLE_LOADER = "$(TEST_HOST)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyHealth.app/FamilyHealth"; }; name = Debug; };
+    00F209874A1F7309F6DCEAA7 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; SWIFT_STRICT_CONCURRENCY = minimal; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+    F72D4F08E84CA4C7F809A7CF = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; CODE_SIGN_ENTITLEMENTS = FamilyHealth/FamilyHealth.entitlements; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = FamilyHealth/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.jiahe.familyhealth; HEALTH_API_BASE_URL = ""; }; name = Release; };
+    04B042A5E7A3FDC0670ED689 = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.jiahe.familyhealth.tests; BUNDLE_LOADER = "$(TEST_HOST)"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyHealth.app/FamilyHealth"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    640DC9EFD529235A8D9E2727 = { isa = XCConfigurationList; buildConfigurations = (ED8772ADEC3A6C25161BC957, 00F209874A1F7309F6DCEAA7, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    4867F1BF372A84237FA0A5A7 = { isa = XCConfigurationList; buildConfigurations = (F8975E934DA2067E0E497395, F72D4F08E84CA4C7F809A7CF, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    19170B56EA5642A46C383F29 = { isa = XCConfigurationList; buildConfigurations = (DF53765BF9D03B65CB04A4C8, 04B042A5E7A3FDC0670ED689, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+  };
+  rootObject = 98F54143AB4E86B28C3AFEE0;
+}

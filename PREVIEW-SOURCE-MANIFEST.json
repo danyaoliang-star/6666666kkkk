@@ -1,0 +1,134 @@
+[
+  {
+    "path": ".github/workflows/ios-native.yml",
+    "bytes": 1452
+  },
+  {
+    "path": "app/ios/check_swift.mjs",
+    "bytes": 1649
+  },
+  {
+    "path": "app/ios/CLOUD-PREVIEW.md",
+    "bytes": 2839
+  },
+  {
+    "path": "app/ios/FamilyHealth/AccountViews.swift",
+    "bytes": 12253
+  },
+  {
+    "path": "app/ios/FamilyHealth/APIClient.swift",
+    "bytes": 6380
+  },
+  {
+    "path": "app/ios/FamilyHealth/AppStore.swift",
+    "bytes": 3713
+  },
+  {
+    "path": "app/ios/FamilyHealth/ChatView.swift",
+    "bytes": 8629
+  },
+  {
+    "path": "app/ios/FamilyHealth/Design.swift",
+    "bytes": 3271
+  },
+  {
+    "path": "app/ios/FamilyHealth/FamilyComparisonView.swift",
+    "bytes": 8573
+  },
+  {
+    "path": "app/ios/FamilyHealth/FamilyHealth.entitlements",
+    "bytes": 232
+  },
+  {
+    "path": "app/ios/FamilyHealth/FamilyHealthApp.swift",
+    "bytes": 5703
+  },
+  {
+    "path": "app/ios/FamilyHealth/HealthKitService.swift",
+    "bytes": 6864
+  },
+  {
+    "path": "app/ios/FamilyHealth/HealthViews.swift",
+    "bytes": 17596
+  },
+  {
+    "path": "app/ios/FamilyHealth/Info-Debug.plist",
+    "bytes": 1699
+  },
+  {
+    "path": "app/ios/FamilyHealth/Info.plist",
+    "bytes": 1659
+  },
+  {
+    "path": "app/ios/FamilyHealth/LifestyleView.swift",
+    "bytes": 7074
+  },
+  {
+    "path": "app/ios/FamilyHealth/MemoriesView.swift",
+    "bytes": 7402
+  },
+  {
+    "path": "app/ios/FamilyHealth/Models.swift",
+    "bytes": 8167
+  },
+  {
+    "path": "app/ios/FamilyHealth/PlansViews.swift",
+    "bytes": 10158
+  },
+  {
+    "path": "app/ios/FamilyHealth/RecordsViews.swift",
+    "bytes": 17301
+  },
+  {
+    "path": "app/ios/FamilyHealth/ReportsViews.swift",
+    "bytes": 22025
+  },
+  {
+    "path": "app/ios/FamilyHealth/WeeklyDraftView.swift",
+    "bytes": 5268
+  },
+  {
+    "path": "app/ios/FamilyHealth.xcodeproj/project.pbxproj",
+    "bytes": 13999
+  },
+  {
+    "path": "app/ios/FamilyHealth.xcodeproj/xcshareddata/xcschemes/FamilyHealth.xcscheme",
+    "bytes": 2385
+  },
+  {
+    "path": "app/ios/FamilyHealthTests/native-contract.json",
+    "bytes": 25327
+  },
+  {
+    "path": "app/ios/FamilyHealthTests/NativeClientTests.swift",
+    "bytes": 10858
+  },
+  {
+    "path": "app/ios/generate_project.py",
+    "bytes": 10224
+  },
+  {
+    "path": "app/ios/package_cloud_preview.py",
+    "bytes": 1813
+  },
+  {
+    "path": "app/ios/package_ios.py",
+    "bytes": 1429
+  },
+  {
+    "path": "app/ios/preview_gallery.py",
+    "bytes": 3231
+  },
+  {
+    "path": "app/ios/README.md",
+    "bytes": 10511
+  },
+  {
+    "path": "app/ios/test-ios.sh",
+    "bytes": 1279
+  },
+  {
+    "path": "app/ios/verify_project.py",
+    "bytes": 2444
+  }
+]

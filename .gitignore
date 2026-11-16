@@ -1,0 +1,5 @@
+app/ios/build/
+app/ios/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+__pycache__/

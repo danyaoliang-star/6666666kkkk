@@ -1,0 +1,977 @@
+{
+  "account": {
+    "name": "家庭管理者",
+    "username": "demo"
+  },
+  "member": {
+    "id": 4,
+    "owner_id": 1,
+    "name": "原生接口测试",
+    "relation": "本人",
+    "birthday": "2000-01-01",
+    "note": "合成测试资料",
+    "scopes": [
+      "read",
+      "write",
+      "supervise",
+      "export",
+      "manage"
+    ]
+  },
+  "catalog": {
+    "sbp": {
+      "name": "收缩压",
+      "unit": "mmHg",
+      "group": "血压"
+    },
+    "dbp": {
+      "name": "舒张压",
+      "unit": "mmHg",
+      "group": "血压"
+    },
+    "fbg": {
+      "name": "空腹血糖",
+      "unit": "mmol/L",
+      "group": "血糖"
+    },
+    "glucose": {
+      "name": "葡萄糖",
+      "unit": "mmol/L",
+      "group": "血糖"
+    },
+    "ldl": {
+      "name": "低密度脂蛋白胆固醇",
+      "unit": "mmol/L",
+      "group": "血脂"
+    },
+    "hdl": {
+      "name": "高密度脂蛋白胆固醇",
+      "unit": "mmol/L",
+      "group": "血脂"
+    },
+    "tg": {
+      "name": "甘油三酯",
+      "unit": "mmol/L",
+      "group": "血脂"
+    },
+    "tc": {
+      "name": "总胆固醇",
+      "unit": "mmol/L",
+      "group": "血脂"
+    },
+    "lpa": {
+      "name": "脂蛋白(a)",
+      "unit": "mg/dL",
+      "group": "血脂"
+    },
+    "lpa_nmol": {
+      "name": "脂蛋白(a)",
+      "unit": "nmol/L",
+      "group": "血脂"
+    },
+    "lpa_mg_l": {
+      "name": "脂蛋白(a)",
+      "unit": "mg/L",
+      "group": "血脂"
+    },
+    "apob": {
+      "name": "载脂蛋白B",
+      "unit": "mg/dL",
+      "group": "血脂"
+    },
+    "alt": {
+      "name": "谷丙转氨酶",
+      "unit": "IU/L",
+      "group": "肝功能"
+    },
+    "ast": {
+      "name": "谷草转氨酶",
+      "unit": "IU/L",
+      "group": "肝功能"
+    },
+    "alp": {
+      "name": "碱性磷酸酶",
+      "unit": "IU/L",
+      "group": "肝功能"
+    },
+    "ggt": {
+      "name": "谷氨酰转肽酶",
+      "unit": "IU/L",
+      "group": "肝功能"
+    },
+    "tp": {
+      "name": "总蛋白",
+      "unit": "g/L",
+      "group": "肝功能"
+    },
+    "alb": {
+      "name": "白蛋白",
+      "unit": "g/L",
+      "group": "肝功能"
+    },
+    "glob": {
+      "name": "球蛋白",
+      "unit": "g/L",
+      "group": "肝功能"
+    },
+    "ag": {
+      "name": "白球比",
+      "unit": "",
+      "group": "肝功能"
+    },
+    "tbil": {
+      "name": "总胆红素",
+      "unit": "μmol/L",
+      "group": "肝功能"
+    },
+    "dbil": {
+      "name": "直接胆红素",
+      "unit": "μmol/L",
+      "group": "肝功能"
+    },
+    "ibil": {
+      "name": "间接胆红素",
+      "unit": "μmol/L",
+      "group": "肝功能"
+    },
+    "tba": {
+      "name": "总胆汁酸",
+      "unit": "μmol/L",
+      "group": "肝功能"
+    },
+    "creatinine": {
+      "name": "肌酐",
+      "unit": "μmol/L",
+      "group": "肾功能"
+    },
+    "ua": {
+      "name": "尿酸",
+      "unit": "μmol/L",
+      "group": "肾功能"
+    },
+    "ckmb": {
+      "name": "肌酸激酶同工酶MB",
+      "unit": "ng/mL",
+      "group": "心肌标志物"
+    }
+  },
+  "report": {
+    "id": 1,
+    "member_id": 4,
+    "name": "native.png",
+    "mime": "image/png",
+    "created_at": "2026-11-16T14:52:56.286480",
+    "status": "待手动校对",
+    "report_id": 1,
+    "report_date": null,
+    "date_source": "unknown",
+    "date_candidates": [],
+    "ocr_status": "queued",
+    "ocr_error": "",
+    "revision": 1,
+    "test_name": "",
+    "test_name_source": "unknown",
+    "test_name_evidence": [],
+    "duplicate": false
+  },
+  "review": {
+    "revision": 1,
+    "report_date": null,
+    "ocr_status": "done",
+    "catalog": {
+      "sbp": {
+        "name": "收缩压",
+        "unit": "mmHg",
+        "group": "血压"
+      },
+      "dbp": {
+        "name": "舒张压",
+        "unit": "mmHg",
+        "group": "血压"
+      },
+      "fbg": {
+        "name": "空腹血糖",
+        "unit": "mmol/L",
+        "group": "血糖"
+      },
+      "glucose": {
+        "name": "葡萄糖",
+        "unit": "mmol/L",
+        "group": "血糖"
+      },
+      "ldl": {
+        "name": "低密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "hdl": {
+        "name": "高密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "tg": {
+        "name": "甘油三酯",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "tc": {
+        "name": "总胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "lpa": {
+        "name": "脂蛋白(a)",
+        "unit": "mg/dL",
+        "group": "血脂"
+      },
+      "lpa_nmol": {
+        "name": "脂蛋白(a)",
+        "unit": "nmol/L",
+        "group": "血脂"
+      },
+      "lpa_mg_l": {
+        "name": "脂蛋白(a)",
+        "unit": "mg/L",
+        "group": "血脂"
+      },
+      "apob": {
+        "name": "载脂蛋白B",
+        "unit": "mg/dL",
+        "group": "血脂"
+      },
+      "alt": {
+        "name": "谷丙转氨酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "ast": {
+        "name": "谷草转氨酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "alp": {
+        "name": "碱性磷酸酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "ggt": {
+        "name": "谷氨酰转肽酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "tp": {
+        "name": "总蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "alb": {
+        "name": "白蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "glob": {
+        "name": "球蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "ag": {
+        "name": "白球比",
+        "unit": "",
+        "group": "肝功能"
+      },
+      "tbil": {
+        "name": "总胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "dbil": {
+        "name": "直接胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "ibil": {
+        "name": "间接胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "tba": {
+        "name": "总胆汁酸",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "creatinine": {
+        "name": "肌酐",
+        "unit": "μmol/L",
+        "group": "肾功能"
+      },
+      "ua": {
+        "name": "尿酸",
+        "unit": "μmol/L",
+        "group": "肾功能"
+      },
+      "ckmb": {
+        "name": "肌酸激酶同工酶MB",
+        "unit": "ng/mL",
+        "group": "心肌标志物"
+      }
+    },
+    "candidates": [],
+    "existing_records": [],
+    "confirmation": null,
+    "duplicate": null
+  },
+  "confirmed_review": {
+    "revision": 2,
+    "report_date": "2026-11-16",
+    "ocr_status": "done",
+    "catalog": {
+      "sbp": {
+        "name": "收缩压",
+        "unit": "mmHg",
+        "group": "血压"
+      },
+      "dbp": {
+        "name": "舒张压",
+        "unit": "mmHg",
+        "group": "血压"
+      },
+      "fbg": {
+        "name": "空腹血糖",
+        "unit": "mmol/L",
+        "group": "血糖"
+      },
+      "glucose": {
+        "name": "葡萄糖",
+        "unit": "mmol/L",
+        "group": "血糖"
+      },
+      "ldl": {
+        "name": "低密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "hdl": {
+        "name": "高密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "tg": {
+        "name": "甘油三酯",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "tc": {
+        "name": "总胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      },
+      "lpa": {
+        "name": "脂蛋白(a)",
+        "unit": "mg/dL",
+        "group": "血脂"
+      },
+      "lpa_nmol": {
+        "name": "脂蛋白(a)",
+        "unit": "nmol/L",
+        "group": "血脂"
+      },
+      "lpa_mg_l": {
+        "name": "脂蛋白(a)",
+        "unit": "mg/L",
+        "group": "血脂"
+      },
+      "apob": {
+        "name": "载脂蛋白B",
+        "unit": "mg/dL",
+        "group": "血脂"
+      },
+      "alt": {
+        "name": "谷丙转氨酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "ast": {
+        "name": "谷草转氨酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "alp": {
+        "name": "碱性磷酸酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "ggt": {
+        "name": "谷氨酰转肽酶",
+        "unit": "IU/L",
+        "group": "肝功能"
+      },
+      "tp": {
+        "name": "总蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "alb": {
+        "name": "白蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "glob": {
+        "name": "球蛋白",
+        "unit": "g/L",
+        "group": "肝功能"
+      },
+      "ag": {
+        "name": "白球比",
+        "unit": "",
+        "group": "肝功能"
+      },
+      "tbil": {
+        "name": "总胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "dbil": {
+        "name": "直接胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "ibil": {
+        "name": "间接胆红素",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "tba": {
+        "name": "总胆汁酸",
+        "unit": "μmol/L",
+        "group": "肝功能"
+      },
+      "creatinine": {
+        "name": "肌酐",
+        "unit": "μmol/L",
+        "group": "肾功能"
+      },
+      "ua": {
+        "name": "尿酸",
+        "unit": "μmol/L",
+        "group": "肾功能"
+      },
+      "ckmb": {
+        "name": "肌酸激酶同工酶MB",
+        "unit": "ng/mL",
+        "group": "心肌标志物"
+      }
+    },
+    "candidates": [],
+    "existing_records": [
+      {
+        "id": 25,
+        "member_id": 4,
+        "report_id": 1,
+        "code": "ldl",
+        "value": 3.8,
+        "measured_at": "2026-11-16",
+        "condition": "空腹",
+        "ref_low": null,
+        "ref_high": 3.4,
+        "note": "报告校对入档 · 原文保留在报告确认快照中",
+        "recorder_id": 1
+      }
+    ],
+    "confirmation": {
+      "report_date": "2026-11-16",
+      "confirmed_at": "2026-11-16T06:52:56.422942+00:00",
+      "records": [
+        {
+          "id": 25,
+          "member_id": 4,
+          "report_id": 1,
+          "code": "ldl",
+          "value": 3.8,
+          "measured_at": "2026-11-16",
+          "condition": "空腹",
+          "ref_low": null,
+          "ref_high": 3.4,
+          "note": "报告校对入档 · 原文保留在报告确认快照中",
+          "recorder_id": 1
+        }
+      ],
+      "snapshot": {
+        "report_date": "2026-11-16",
+        "items": [
+          {
+            "code": "ldl",
+            "value": 3.8,
+            "unit": "mmol/L",
+            "condition": "空腹",
+            "ref_low": null,
+            "ref_high": 3.4,
+            "source_index": null,
+            "source": "人工补充",
+            "observation_id": 25
+          }
+        ]
+      }
+    },
+    "duplicate": null
+  },
+  "observations": [
+    {
+      "id": 25,
+      "member_id": 4,
+      "report_id": 1,
+      "code": "ldl",
+      "value": 3.8,
+      "measured_at": "2026-11-16",
+      "condition": "空腹",
+      "ref_low": null,
+      "ref_high": 3.4,
+      "note": "报告校对入档 · 原文保留在报告确认快照中",
+      "recorder_id": 1
+    }
+  ],
+  "care": {
+    "goals": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "code": "ldl",
+        "low": null,
+        "high": 2.6,
+        "condition": "空腹",
+        "source": "模拟医嘱",
+        "goal_date": "2026-11-16",
+        "state": "active",
+        "revision": 1,
+        "created_by": 1,
+        "updated_by": 1,
+        "updated_at": "2026-11-16T06:52:56.464645+00:00",
+        "name": "低密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "latest": {
+          "id": 25,
+          "member_id": 4,
+          "report_id": 1,
+          "code": "ldl",
+          "value": 3.8,
+          "measured_at": "2026-11-16",
+          "condition": "空腹",
+          "ref_low": null,
+          "ref_high": 3.4,
+          "note": "报告校对入档 · 原文保留在报告确认快照中",
+          "recorder_id": 1
+        },
+        "comparison": "above"
+      }
+    ],
+    "followups": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "title": "模拟复查",
+        "due_date": "2026-11-19",
+        "note": "测试事项",
+        "state": "pending",
+        "revision": 1,
+        "created_by": 1,
+        "updated_by": 1,
+        "updated_at": "2026-11-16T06:52:56.484717+00:00",
+        "completed_at": null,
+        "days_until": 3,
+        "urgency": "upcoming"
+      }
+    ],
+    "today": "2026-11-16",
+    "reminders": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "title": "模拟复查",
+        "due_date": "2026-11-19",
+        "note": "测试事项",
+        "state": "pending",
+        "revision": 1,
+        "created_by": 1,
+        "updated_by": 1,
+        "updated_at": "2026-11-16T06:52:56.484717+00:00",
+        "completed_at": null,
+        "days_until": 3,
+        "urgency": "upcoming"
+      }
+    ],
+    "can_write": true
+  },
+  "plans": [
+    {
+      "id": 3,
+      "member_id": 4,
+      "title": "测试散步",
+      "kind": "运动",
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "note": "模拟安排",
+      "logs": [
+        {
+          "id": 1,
+          "plan_id": 3,
+          "day": "2026-11-16",
+          "state": "完成"
+        }
+      ]
+    }
+  ],
+  "weekly": {
+    "week": "2026-11-16",
+    "end": "2026-11-22",
+    "through": "2026-11-16",
+    "plans": [
+      {
+        "id": 3,
+        "member_id": 4,
+        "title": "测试散步",
+        "kind": "运动",
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "note": "模拟安排",
+        "total": 1,
+        "scheduled": 7,
+        "done": 1,
+        "missed": 0,
+        "blank": 0,
+        "rate": 100,
+        "logs": [
+          {
+            "id": 1,
+            "plan_id": 3,
+            "day": "2026-11-16",
+            "state": "完成"
+          }
+        ]
+      }
+    ],
+    "totals": {
+      "total": 1,
+      "scheduled": 7,
+      "done": 1,
+      "missed": 0,
+      "blank": 0,
+      "rate": 100
+    },
+    "source_hash": "1ae5b0d80cfa3516480170ae3363557088f37dc0e3fa2c9e3b22c2faba2b3dc0",
+    "ai": null,
+    "draft": null
+  },
+  "weekly_draft": {
+    "id": 1,
+    "member_id": 4,
+    "week": "2026-11-23",
+    "source_hash": "1ae5b0d80cfa3516480170ae3363557088f37dc0e3fa2c9e3b22c2faba2b3dc0",
+    "items": [
+      {
+        "source_plan_id": 3,
+        "title": "测试散步",
+        "kind": "运动",
+        "note": "模拟安排",
+        "start": "2026-11-23",
+        "end": "2026-11-29"
+      }
+    ],
+    "state": "draft",
+    "revision": 1,
+    "confirmed_plan_ids": [],
+    "confirmed_by": null,
+    "confirmed_at": null
+  },
+  "memories": {
+    "items": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "category": "preference",
+        "content": "测试偏好：少油",
+        "state": "active",
+        "valid_until": null,
+        "source_message_id": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2026-11-16T06:52:56.616771+00:00",
+        "updated_at": "2026-11-16T06:52:56.616771+00:00",
+        "revision": 1,
+        "expired": false,
+        "use_in_model": false,
+        "model_destination": null
+      }
+    ],
+    "categories": {
+      "allergy": "过敏与不耐受",
+      "medication": "用药情况",
+      "history": "既往情况",
+      "family_history": "家族病史",
+      "preference": "生活偏好",
+      "other": "其他健康信息"
+    },
+    "can_write": true
+  },
+  "conversations": [
+    {
+      "id": 1,
+      "member_id": 4,
+      "account_id": 1,
+      "title": "原生端测试",
+      "created_at": "2026-11-16T06:52:56.644526+00:00",
+      "updated_at": "2026-11-16T06:52:56.672476+00:00"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "member_id": 4,
+      "account_id": 1,
+      "role": "user",
+      "content": "最近的健康指标怎么样？",
+      "mode": null,
+      "required_scope": "supervise",
+      "created_at": "2026-11-16T06:52:56.663802+00:00",
+      "attachments": []
+    },
+    {
+      "id": 2,
+      "member_id": 4,
+      "account_id": 1,
+      "role": "assistant",
+      "content": "根据当前成员已保存的记录，最近一次结果如下。\n\n· 低密度脂蛋白胆固醇：3.8 mmol/L（2026-11-16，空腹，记录 #25）\n\n可以在「健康 → 慢病跟踪」查看相同测量条件的完整趋势。数值变化取自记录计算。",
+      "mode": "archive",
+      "required_scope": "supervise",
+      "created_at": "2026-11-16T06:52:56.672476+00:00",
+      "attachments": []
+    }
+  ],
+  "reply": {
+    "messages": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "account_id": 1,
+        "role": "user",
+        "content": "最近的健康指标怎么样？",
+        "mode": null,
+        "required_scope": "supervise",
+        "created_at": "2026-11-16T06:52:56.663802+00:00",
+        "attachments": []
+      },
+      {
+        "id": 2,
+        "member_id": 4,
+        "account_id": 1,
+        "role": "assistant",
+        "content": "根据当前成员已保存的记录，最近一次结果如下。\n\n· 低密度脂蛋白胆固醇：3.8 mmol/L（2026-11-16，空腹，记录 #25）\n\n可以在「健康 → 慢病跟踪」查看相同测量条件的完整趋势。数值变化取自记录计算。",
+        "mode": "archive",
+        "required_scope": "supervise",
+        "created_at": "2026-11-16T06:52:56.672476+00:00",
+        "attachments": []
+      }
+    ]
+  },
+  "lifestyle_context": {
+    "reports": [
+      {
+        "id": 1,
+        "member_id": 4,
+        "name": "native.png",
+        "mime": "image/png",
+        "created_at": "2026-11-16T14:52:56.286480",
+        "status": "已确认入档",
+        "report_id": 1,
+        "report_date": "2026-11-16",
+        "date_source": "manual",
+        "date_candidates": [],
+        "ocr_status": "done",
+        "ocr_error": "",
+        "revision": 2,
+        "test_name": "",
+        "test_name_source": "unknown",
+        "test_name_evidence": [],
+        "confirmed_count": 1
+      }
+    ],
+    "memories": [
+      {
+        "id": 1,
+        "category": "生活偏好",
+        "content": "测试偏好：少油",
+        "model_allowed": false
+      }
+    ],
+    "service": {
+      "configured": false,
+      "model": null,
+      "memory_destination": null,
+      "message": "大模型未配置 · 当前为本地 OCR 与档案问答"
+    },
+    "today": "2026-11-16"
+  },
+  "lifestyle": {
+    "id": 1,
+    "state": "draft",
+    "created_at": "2026-11-16T06:52:56.740149+00:00",
+    "plan_ids": [],
+    "actions": [
+      {
+        "id": "labels",
+        "title": "选餐时查看盐、糖和饱和脂肪标识",
+        "kind": "饮食",
+        "reduce": "频繁选择高盐、高添加糖、高饱和脂肪的加工食品",
+        "alternative": "比较同类食品标签，结合自身过敏与饮食医嘱选择",
+        "note": "每天记录一次选餐或食品标签比较；特殊饮食按原有医嘱执行。",
+        "evidence_ids": [],
+        "basis": "一般生活习惯建议",
+        "reference": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations/"
+      },
+      {
+        "id": "fat_swap",
+        "title": "一餐减少肥肉、黄油或油炸食品",
+        "kind": "饮食",
+        "reduce": "肥肉、黄油及频繁油炸的食物",
+        "alternative": "优先蒸煮等做法，选择自己能耐受的较低饱和脂肪食物",
+        "note": "完成一次选餐替换即可打卡；正常进餐，不追求极端低脂。",
+        "evidence_ids": [
+          25
+        ],
+        "basis": "报告参考范围提示",
+        "reference": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations/"
+      },
+      {
+        "id": "walk",
+        "title": "按舒适节奏步行约10分钟",
+        "kind": "运动",
+        "reduce": "突然增加运动强度或长时间憋气用力",
+        "alternative": "从可轻松交谈的步行开始，可按耐受分段完成",
+        "note": "这是起步目标，按身体反应逐步调整。出现胸痛、晕厥或明显气短应停止并及时就医。",
+        "evidence_ids": [],
+        "basis": "一般生活习惯建议",
+        "reference": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ],
+    "warnings": [
+      "报告反映检查当时的情况，执行前请结合近期复查和已有医嘱。"
+    ],
+    "evidence": [
+      {
+        "id": 25,
+        "report_id": 1,
+        "code": "ldl",
+        "value": 3.8,
+        "ref_low": null,
+        "ref_high": 3.4,
+        "measured_at": "2026-11-16",
+        "condition": "空腹",
+        "name": "低密度脂蛋白胆固醇",
+        "unit": "mmol/L",
+        "group": "血脂"
+      }
+    ],
+    "report_ids": [
+      1
+    ],
+    "mode": "local",
+    "model": null
+  },
+  "health": {
+    "can_connect": true,
+    "active": true,
+    "scopes": [
+      "heartRate",
+      "steps"
+    ],
+    "consent_id": "synthetic-fixture-consent-not-valid-on-server",
+    "last_synced_at": "2026-11-16T06:52:56.808275+00:00",
+    "timezone": "Asia/Shanghai",
+    "window_end": "2026-11-16",
+    "records": [
+      {
+        "code": "steps",
+        "day": "2026-11-16",
+        "value": 1128.0
+      }
+    ]
+  },
+  "comparison": {
+    "members": [
+      {
+        "id": 4,
+        "name": "原生接口测试",
+        "relation": "本人",
+        "status": "missing",
+        "note": "尚无已确认的 Lp(a) 记录。OCR 候选需要先校对入档。",
+        "record": null,
+        "options": []
+      },
+      {
+        "id": 5,
+        "name": "对照合成成员",
+        "relation": "家人",
+        "status": "missing",
+        "note": "尚无已确认的 Lp(a) 记录。OCR 候选需要先校对入档。",
+        "record": null,
+        "options": []
+      }
+    ],
+    "relationships": [
+      {
+        "first_member_id": 4,
+        "second_member_id": 5,
+        "kind": "unknown",
+        "revision": 0,
+        "confirmed_at": null,
+        "can_edit": true
+      }
+    ],
+    "signals": [
+      {
+        "member_ids": [
+          4,
+          5
+        ],
+        "names": "原生接口测试与对照合成成员",
+        "kind": "unknown",
+        "relationship": "尚未确认",
+        "unit_note": "",
+        "family_signal": false,
+        "status": "insufficient",
+        "title": "资料还不完整",
+        "text": "原生接口测试与对照合成成员的资料尚不足以生成共同升高提示，请补充或核对各自的已确认记录。"
+      }
+    ],
+    "relationship_options": {
+      "unknown": "尚未确认",
+      "parent_child": "亲生父母与子女",
+      "siblings": "亲生兄弟姐妹",
+      "grandparent": "祖孙（血缘）",
+      "other_blood": "其他血缘亲属",
+      "not_blood": "无血缘关系"
+    },
+    "references": [
+      {
+        "title": "美国心脏协会：脂蛋白(a)",
+        "url": "https://www.heart.org/en/health-topics/cholesterol/genetic-conditions/lipoprotein-a"
+      },
+      {
+        "title": "NLA 2024 Lp(a) 科学声明更新",
+        "url": "https://www.lipid.org/resource/a-focused-update-to-the-2019-nla-scientific-statement-on-use-of-lipoproteina-in-clinical-practice/"
+      },
+      {
+        "title": "2026 血脂管理指南要点",
+        "url": "https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know"
+      }
+    ],
+    "generated_at": "2026-11-16T06:52:56.871115+00:00",
+    "rule_version": "lpa-family-2026-11-v1",
+    "note": "仅使用已确认的 Lp(a) 记录，本地生成线索；不诊断遗传病、不估算遗传概率。"
+  },
+  "grants": [
+    {
+      "id": 2,
+      "username": "family",
+      "scope": "read"
+    }
+  ]
+}

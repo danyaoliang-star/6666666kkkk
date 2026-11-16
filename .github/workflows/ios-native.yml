@@ -1,0 +1,45 @@
+name: iPhone native preview
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/ios-native-preview
+    paths:
+      - app/ios/**
+      - .github/workflows/ios-native.yml
+permissions:
+  contents: read
+jobs:
+  swiftui:
+    runs-on: macos-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile SwiftUI, run tests, and capture native screens
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p app/ios/build
+          bash app/ios/test-ios.sh 2>&1 | tee app/ios/build/xcodebuild.log
+      - name: Export real native screenshots
+        shell: bash
+        run: |
+          xcrun xcresulttool export attachments --path app/ios/build/NativeChecks.xcresult --output-path app/ios/build/native-screenshots
+          python3 app/ios/preview_gallery.py app/ios/build/native-screenshots
+      - name: Downloadable native screenshots and gallery
+        uses: actions/upload-artifact@v4
+        with:
+          name: iPhone-native-screenshots
+          path: app/ios/build/native-screenshots/
+          if-no-files-found: error
+          retention-days: 7
+      - name: Preserve Xcode diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iPhone-native-diagnostics
+          path: |
+            app/ios/build/xcodebuild.log
+            app/ios/build/NativeChecks.xcresult/
+          if-no-files-found: warn
+          retention-days: 7
